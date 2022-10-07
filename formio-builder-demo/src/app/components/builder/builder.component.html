@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <form-builder [form]="form" #formio [options]="options"></form-builder>
+        </div>
+    </div>
+    <hr class="linea">
+    <button (click)="guardarFormulario()">Ver formulario</button>
+    <div class="well jsonviewer">
+        <pre id="json"><code class="language-json" #json></code></pre>
+    </div>
+</div>
